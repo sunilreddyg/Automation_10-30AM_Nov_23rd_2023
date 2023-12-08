@@ -15,10 +15,18 @@ public class TVRemote
 		System.out.println("Turned off");
 	}
 	
+	//Reusable method
+	public void nextchannel() 
+	{
+		System.out.println("Next Channel Displayed");
+	}
+	
 	public static void main(String[] args) 
 	{
-		//new TVRemote().turnon();
+		new TVRemote().turnon();
+		new TVRemote().nextchannel();
 		new TVRemote().turnoff();
 	}
-
+	
+	
 }
