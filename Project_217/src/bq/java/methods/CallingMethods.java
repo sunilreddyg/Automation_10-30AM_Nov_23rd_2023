@@ -10,7 +10,7 @@ public class CallingMethods
 	
 	public void method2()
 	{
-		System.out.println("method1");
+		System.out.println("method2");
 	}
 	
 	public void method3()
