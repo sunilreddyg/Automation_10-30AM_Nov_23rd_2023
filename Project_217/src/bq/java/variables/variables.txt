@@ -158,6 +158,11 @@ Instant Variable:---->
 				system.out.println(price);
 				//Variable Inforamtion can be used 
 			}
+			
+			static void checkavailable()
+			{
+					System.out.prinln(new Phone().price);
+			}
 		}
 ----------------------------------------------------------------
 
